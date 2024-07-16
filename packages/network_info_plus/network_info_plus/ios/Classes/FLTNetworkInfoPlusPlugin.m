@@ -115,9 +115,9 @@
   case kCLAuthorizationStatusDenied: {
     return @"denied";
   }
-  case kCLAuthorizationStatusAuthorizedAlways: {
-    return @"authorizedAlways";
-  }
+  // case kCLAuthorizationStatusAuthorizedAlways: {
+  //   return @"authorizedAlways";
+  // }
   case kCLAuthorizationStatusAuthorizedWhenInUse: {
     return @"authorizedWhenInUse";
   }

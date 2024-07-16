@@ -39,7 +39,8 @@
   self.locationManager = [CLLocationManager new];
   self.locationManager.delegate = self;
   if (always) {
-    [self.locationManager requestAlwaysAuthorization];
+    // [self.locationManager requestAlwaysAuthorization];
+    [self.locationManager requestWhenInUseAuthorization];
   } else {
     [self.locationManager requestWhenInUseAuthorization];
   }
